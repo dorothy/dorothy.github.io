@@ -10,45 +10,49 @@
     <atom:link href="http://dorothy.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>첫 번째 이야기</title>
-      <link>http://dorothy.github.io/post/first/</link>
+      <title>basic-example.adoc</title>
+      <link>http://dorothy.github.io/post/basic-example/</link>
       <pubDate>Wed, 10 Feb 2016 10:52:22 +0900</pubDate>
       
-      <guid>http://dorothy.github.io/post/first/</guid>
-      <description>
+      <guid>http://dorothy.github.io/post/basic-example/</guid>
+      <description>&lt;div id=&#34;preamble&#34;&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;A simple &lt;a href=&#34;http://asciidoc.org&#34;&gt;AsciiDoc&lt;/a&gt; document.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;A paragraph followed by a simple list with square bullets.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;ulist square&#34;&gt;
+&lt;ul class=&#34;square&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;item 1&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;item 2&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Here&amp;#8217;s how you say &amp;#8220;Hello, World!&amp;#8221; in Prawn:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;Listing 1. Create a basic PDF document using Prawn&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre class=&#34;CodeRay highlight&#34;&gt;&lt;code data-lang=&#34;ruby&#34;&gt;require &#39;prawn&#39;
 
-&lt;h2 id=&#34;연습해봅니다:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;연습해봅니다.&lt;/h2&gt;
-
-&lt;p&gt;Hello. 안녕하세요. 또 만났군요.&lt;/p&gt;
-
-&lt;p&gt;코드를 넣어 봅니다.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;import main
-
-func main() {
-    println(&amp;quot;hello, world! 세계!&amp;quot;)
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;표도.&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;열 1&lt;/th&gt;
-&lt;th&gt;열 2&lt;/th&gt;
-&lt;th&gt;Col 3&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;안녕&lt;/td&gt;
-&lt;td&gt;하세&lt;/td&gt;
-&lt;td&gt;요. Hello.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
+Prawn::Document.generate &#39;example.pdf&#39; do
+  text &#39;Hello, World!&#39;
+end&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 </description>
     </item>
     
