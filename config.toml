@@ -1,0 +1,12 @@
+baseurl = "http://dorothy.github.io/"
+languageCode = "ko"
+title = "dorothy.io"
+disqusShortname = "dorothyio"
+
+[Params]
+subtitle = "The Tea Lover"
+facebook = ""
+twitter = ""
+github = "https://github.com/dorothy"
+profile = ""
+analytics = ""
