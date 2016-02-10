@@ -6,7 +6,7 @@
   
   <meta charset="UTF-8">
   <title>
-    ABOUT | dorothy.io
+    basic-example.adoc | dorothy.io
   </title>
 
 
@@ -14,7 +14,7 @@
   <meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1,initial-scale=1">
 
   
-  <link rel="canonical" href="http://dorothy.github.io/about/"/>
+  <link rel="canonical" href="http://dorothy.github.io/post/basic-example/"/>
 
   
   <link rel="stylesheet" href="/css/sanitize.css">
@@ -62,16 +62,51 @@
   
   <main id="single" role="main">
     <div class="article-header">
-      <h1>ABOUT</h1>
+      <h1>basic-example.adoc</h1>
       <div class="meta">
         Feb 10, 2016 &nbsp;
         
       </div>
     </div>
     <article>
-      
+      <div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>A simple <a href="http://asciidoc.org">AsciiDoc</a> document.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_introduction">Introduction</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>A paragraph followed by a simple list with square bullets.</p>
+</div>
+<div class="ulist square">
+<ul class="square">
+<li>
+<p>item 1</p>
+</li>
+<li>
+<p>item 2</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Here&#8217;s how you say &#8220;Hello, World!&#8221; in Prawn:</p>
+</div>
+<div class="listingblock">
+<div class="title">Listing 1. Create a basic PDF document using Prawn</div>
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="ruby">require 'prawn'
 
-<h2 id="dorothy-the-tea-lover:6083a88ee3411b0d17ce02d738f69d47">Dorothy, The Tea Lover</h2>
+Prawn::Document.generate 'example.pdf' do
+  text 'Hello, World!'
+end</code></pre>
+</div>
+</div>
+</div>
+</div>
 
       
       
@@ -104,8 +139,8 @@
   
   <nav class="pagination">
     
+      <span class="previous">&larr; <a href="http://dorothy.github.io/about/" rel="prev">ABOUT</a></span>
     
-      <span class="next"><a href="http://dorothy.github.io/post/basic-example/" rel="next">basic-example.adoc</a> &rarr;</span>
     
   </nav>
 
