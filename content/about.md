@@ -1,10 +1,8 @@
 +++
 date = "2016-02-10T10:51:16+09:00"
-draft = true
-title = "about"
+draft = false
+title = "ABOUT"
 
 +++
-## About
 
-Studio Dorothy
-
+## Dorothy, The Tea Lover
