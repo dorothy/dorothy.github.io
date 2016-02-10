@@ -6,8 +6,220 @@
     <description>Recent content on dorothy.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
-    <lastBuildDate>Wed, 10 Feb 2016 10:52:22 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 10 Feb 2016 13:22:22 +0900</lastBuildDate>
     <atom:link href="http://dorothy.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>asciidoc article</title>
+      <link>http://dorothy.github.io/post/asciidoc-article/</link>
+      <pubDate>Wed, 10 Feb 2016 13:22:22 +0900</pubDate>
+      
+      <guid>http://dorothy.github.io/post/asciidoc-article/</guid>
+      <description>&lt;div id=&#34;preamble&#34;&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;This is the optional preamble (an untitled section body). Useful for
+writing simple sectionless documents consisting only of a preamble.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;admonitionblock note&#34;&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;td class=&#34;icon&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;Note&lt;/div&gt;
+&lt;/td&gt;
+&lt;td class=&#34;content&#34;&gt;
+The abstract, preface, appendix, bibliography, glossary and
+index section titles are significant (&lt;em&gt;specialsections&lt;/em&gt;).
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_example_abstract&#34;&gt;Example Abstract&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;The optional abstract (one or more paragraphs) goes here.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;This document is an AsciiDoc article skeleton containing briefly
+annotated element placeholders plus a couple of example index entries
+and footnotes.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_the_first_section&#34;&gt;1. The First Section&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Article sections start at level 1 and can be nested up to four levels
+deep.
+&lt;sup class=&#34;footnote&#34;&gt;[&lt;a id=&#34;_footnoteref_1&#34; class=&#34;footnote&#34; href=&#34;#_footnote_1&#34; title=&#34;View footnote.&#34;&gt;1&lt;/a&gt;]&lt;/sup&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;And now for something completely different: monkeys, lions and
+tigers (Bengal and Siberian) using the alternative syntax index
+entries.
+
+
+
+Note that multi-entry terms generate separate index entries.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Here are a couple of image examples: an &lt;span class=&#34;image&#34;&gt;&lt;img src=&#34;http://dorothy.github.io/images/asciidoc-article/github-mark.png&#34; alt=&#34;github mark&#34;&gt;&lt;/span&gt;
+example inline image followed by an example block image:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;asciidoc-article/github-mark.png&#34; alt=&#34;Tiger image&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;Figure 1. Tiger block image&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Followed by an example table:&lt;/p&gt;
+&lt;/div&gt;
+&lt;table class=&#34;tableblock frame-all grid-all&#34; style=&#34;width: 60%;&#34;&gt;
+&lt;caption class=&#34;title&#34;&gt;Table 1. An example table&lt;/caption&gt;
+&lt;colgroup&gt;
+&lt;col style=&#34;width: 50%;&#34;&gt;
+&lt;col style=&#34;width: 50%;&#34;&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th class=&#34;tableblock halign-left valign-top&#34;&gt;Option&lt;/th&gt;
+&lt;th class=&#34;tableblock halign-left valign-top&#34;&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;-a &lt;em&gt;USER GROUP&lt;/em&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;Add &lt;em&gt;USER&lt;/em&gt; to &lt;em&gt;GROUP&lt;/em&gt;.&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;-R &lt;em&gt;GROUP&lt;/em&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;Disables access to &lt;em&gt;GROUP&lt;/em&gt;.&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div class=&#34;exampleblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;Example 1. An example example&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Lorum ipum&amp;#8230;&amp;#8203;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;X1&#34;&gt;1.1. Sub-section with Anchor&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Sub-section at level 2.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect3&#34;&gt;
+&lt;h4 id=&#34;_a_nested_sub_section&#34;&gt;1.1.1. A Nested Sub-section&lt;/h4&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Sub-section at level 3.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect4&#34;&gt;
+&lt;h5 id=&#34;_yet_another_nested_sub_section&#34;&gt;Yet another nested Sub-section&lt;/h5&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Sub-section at level 4.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;This is the maximum sub-section depth supported by the distributed
+AsciiDoc configuration.
+&lt;sup class=&#34;footnote&#34;&gt;[&lt;a id=&#34;_footnoteref_2&#34; class=&#34;footnote&#34; href=&#34;#_footnote_2&#34; title=&#34;View footnote.&#34;&gt;2&lt;/a&gt;]&lt;/sup&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_the_second_section&#34;&gt;2. The Second Section&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Article sections are at level 1 and can contain sub-sections nested up
+to four deep.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;An example link to anchor at start of the &lt;a href=&#34;#X1&#34;&gt;first sub-section&lt;/a&gt;.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;An example link to a bibliography entry &lt;a href=&#34;#taoup&#34;&gt;[taoup]&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_example_appendix&#34;&gt;Appendix A: Example Appendix&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;AsciiDoc article appendices are just just article sections with
+&lt;em&gt;specialsection&lt;/em&gt; titles.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_appendix_sub_section&#34;&gt;Appendix Sub-section&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Appendix sub-section at level 2.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_example_bibliography&#34;&gt;Example Bibliography&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;The bibliography list is a style of AsciiDoc bulleted list.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;ulist bibliography&#34;&gt;
+&lt;ul class=&#34;bibliography&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a id=&#34;taoup&#34;&gt;&lt;/a&gt;[taoup] Eric Steven Raymond. &lt;em&gt;The Art of Unix
+Programming&lt;/em&gt;. Addison-Wesley. ISBN 0-13-142901-9.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a id=&#34;walsh-muellner&#34;&gt;&lt;/a&gt;[walsh-muellner] Norman Walsh &amp;amp; Leonard Muellner.
+&lt;em&gt;DocBook - The Definitive Guide&lt;/em&gt;. O&amp;#8217;Reilly &amp;amp; Associates. 1999.
+ISBN 1-56592-580-7.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_example_glossary&#34;&gt;Example Glossary&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Glossaries are optional. Glossaries entries are an example of a style
+of AsciiDoc labeled lists.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;dlist glossary&#34;&gt;
+&lt;dl&gt;
+&lt;dt&gt;A glossary term&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;The corresponding (indented) definition.&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt&gt;A second glossary term&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;The corresponding (indented) definition.&lt;/p&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;footnotes&#34;&gt;
+&lt;hr&gt;
+&lt;div class=&#34;footnote&#34; id=&#34;_footnote_1&#34;&gt;
+&lt;a href=&#34;#_footnoteref_1&#34;&gt;1&lt;/a&gt;. An example footnote.
+&lt;/div&gt;
+&lt;div class=&#34;footnote&#34; id=&#34;_footnote_2&#34;&gt;
+&lt;a href=&#34;#_footnoteref_2&#34;&gt;2&lt;/a&gt;. A second example footnote.
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>basic-example.adoc</title>
