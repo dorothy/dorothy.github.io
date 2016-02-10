@@ -10,3 +10,8 @@ twitter = ""
 github = "https://github.com/dorothy"
 profile = ""
 analytics = ""
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+series = "series"
